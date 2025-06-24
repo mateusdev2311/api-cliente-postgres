@@ -1,0 +1,29 @@
+POST http://localhost:3000/clientes
+Content-Type: application/json
+
+{
+    "nome":"Mateus",
+    "documento":"15526614662",
+    "nascimento":"teste"
+
+}
+
+###
+
+GET http://localhost:3000/clientes
+
+###
+
+PUT http://localhost:3000/clientes/ea18e348-6c45-4bfc-a959-c00ac5a91789
+Content-Type: application/json
+
+{
+    "nome":"carlos",
+    "documento":"15526614662",
+    "nascimento":"03/07/2001"
+
+}
+
+###
+
+DELETE http://localhost:3000/clientes/9748d6c9-fcbd-4246-9753-fb7729e4a0e4
